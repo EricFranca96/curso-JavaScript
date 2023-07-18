@@ -7,27 +7,16 @@
 </head>
 <body>
     <script>
-        function testes(){
-            // Executando quando chamar a função.
-            console.log('chamando a função testes');
+        /*
+        let func = function (){
+            alert('Olá Mundo!');
         }
+        func();
+        */
 
-        function testes2(nome,idade){
-            console.log("O nome passado é: "+nome);
-            console.log("A idade é: "+idade);
-            console.log("--------------------------");
-        }
-
-        function pegarNome(parametro){
-            if(parametro == 1){
-                return "Guilherme";
-            }else{
-                return "Outro nome";
-            }
-        }
-
-        var nome = pegarNome(125255);
-        console.log(nome);
+        (function(){
+            alert('Olá Mundo!');
+        })();
     </script>
 </body>
 </html>
